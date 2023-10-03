@@ -26,5 +26,8 @@ public class Player_Control : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D)) {
             animatorController.SetTrigger("D");
         }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            animatorController.SetTrigger("Death");
+        }
     }
 }
