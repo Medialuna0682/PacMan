@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Control : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip move;
