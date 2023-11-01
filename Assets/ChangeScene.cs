@@ -21,5 +21,8 @@ public class ChangeScene : MonoBehaviour
         if (this.gameObject.name == "Level1Button") {
             SceneManager.LoadScene(1);
         }
+        if (this.gameObject.name == "ExitButton") {
+            SceneManager.LoadScene(0);
+        }
     }
 }
